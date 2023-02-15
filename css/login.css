@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+}
+
+.heading {
+  background-image: none;
+  color: var(--main-color);
+  height: auto;
+}
+
+.nav-left .nav-contact div a,
+.nav-right ul li a {
+  color: var(--main-color) !important;
+}
+
+.nav-left div i {
+  color: var(--sec-color);
+}
+
+.nav-left .nav-btn a:first-child {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+/* login */
+
+.login-section {
+  padding: 150px 0;
+}
+
+.login--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login--main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login--text {
+  color: var(--main-color);
+}
+
+.login--form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaa;
+  border-radius: 17px;
+  padding: 40px 80px;
+}
+
+.login--form label {
+  margin-bottom: 10px;
+}
+
+.login--form input {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  width: 350px;
+  border-radius: 7px;
+  border: 1px solid #aaa;
+}
+
+@media (max-width: 550px) {
+  .login--form {
+    padding: 40px 8vw;
+  }
+
+  .login--form input {
+    width: auto;
+  }
+
+  .login--text {
+    font-size: 2em;
+  }
+}
+
+.login--form .login--check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.login--form .login--check input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.login--form .login--check label {
+  padding-right: 30px;
+  padding-top: 15px;
+}
+
+.login--form .login--check .checkmark {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border: 1px solid #aaa;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.login--form .login--check .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.login--form .login--check input:checked ~ .checkmark {
+  background-color: var(--sec-color);
+  border: none;
+}
+
+.login--form input[type="submit"] {
+  background-color: var(--main-color);
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.login--form input[type="submit"]:hover {
+  background-color: #4a1714e3;
+}
+
+.login--form p a {
+  text-decoration: none;
+  color: var(--sec-color);
+}
