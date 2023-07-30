@@ -1,7 +1,7 @@
 # EFADAH Ui Website
 ---
 
-> This is an `EFADAH - Ui Template` and i dont own its copyrights and design idea .\
+> This is an `EFADAH - Ui Template` which i dont own its copyrights .\
 > Its one of my old projects i did 2 years ago to practice css and to try doing an arabic language website.\
 > Its not a complete project but i decieded to upload it and maybe add `js` to it later.
 
